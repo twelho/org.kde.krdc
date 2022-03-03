@@ -62,8 +62,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.12.2/src/krdc-21.12.2.tar.xz",
-                    "sha256": "0300a60d7b3961fe9829955b9dcaa1ed0b2fff4442eea8bb1d06ab448f1ab100"
+                    "url": "https://download.kde.org/stable/release-service/21.12.3/src/krdc-21.12.3.tar.xz",
+                    "sha256": "12088c5881c66897e698477d813cb5fa31f221b55cab74c53e94b6ba294bd726"
                 }
             ],
             "post-install": [
