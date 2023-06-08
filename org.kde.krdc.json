@@ -80,8 +80,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.04.1/src/krdc-23.04.1.tar.xz",
-                    "sha256": "11f8e54fb57cbdc18f383ba57960ea2c4fab2cd33bf89658ad4bf05552898879",
+                    "url": "https://download.kde.org/stable/release-service/23.04.2/src/krdc-23.04.2.tar.xz",
+                    "sha256": "5b8e779c6fb0f9e5e15c0f92443932838ad281adde71d477a078ad12a4e70a9c",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
