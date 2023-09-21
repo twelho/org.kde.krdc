@@ -21,6 +21,17 @@
         "--socket=pulseaudio",
         "--talk-name=org.kde.kwalletd5"
     ],
+    "add-extensions": {
+        "org.freedesktop.Platform.ffmpeg-full": {
+            "directory": "lib/ffmpeg",
+            "add-ld-path": ".",
+            "version": "22.08",
+            "autodownload": true
+        }
+    },
+    "cleanup-commands": [
+        "mkdir -p ${FLATPAK_DEST}/lib/ffmpeg"
+    ],
     "modules": [
         "shared-modules/libusb/libusb.json",
         {
