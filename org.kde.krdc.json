@@ -37,6 +37,11 @@
         {
             "name": "libssh",
             "buildsystem": "cmake-ninja",
+            "config-opts": [
+                "-DWITH_DEBUG_CALLTRACE:BOOL=OFF",
+                "-DWITH_EXAMPLES:BOOL=OFF",
+                "-DWITH_SERVER:BOOL=OFF"
+            ],
             "builddir": true,
             "sources": [
                 {
@@ -55,6 +60,13 @@
         {
             "name": "libvncserver",
             "buildsystem": "cmake",
+            "config-opts": [
+                "-DWITH_EXAMPLES:BOOL=OFF",
+                "-DWITH_GTK:BOOL=OFF",
+                "-DWITH_SDL:BOOL=OFF",
+                "-DWITH_SYSTEMD:BOOL=OFF",
+                "-DWITH_TESTS:BOOL=OFF"
+            ],
             "sources": [
                 {
                     "type": "archive",
@@ -72,6 +84,12 @@
         {
             "name": "freerdp",
             "buildsystem": "cmake",
+            "config-opts": [
+                "-DWITH_MANPAGES:BOOL=OFF",
+                "-DWITH_OSS:BOOL=OFF",
+                "-DWITH_SAMPLE:BOOL=OFF",
+                "-DWITH_SERVER:BOOL=OFF"
+            ],
             "sources": [
                 {
                     "type": "archive",
