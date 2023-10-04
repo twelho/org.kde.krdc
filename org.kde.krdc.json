@@ -18,7 +18,8 @@
         "--socket=wayland",
         "--share=network",
         "--device=dri",
-        "--socket=pulseaudio"
+        "--socket=pulseaudio",
+        "--talk-name=org.kde.kwalletd5"
     ],
     "modules": [
         "shared-modules/libusb/libusb.json",
