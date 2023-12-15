@@ -84,6 +84,7 @@
         {
             "name": "freerdp",
             "buildsystem": "cmake",
+	    "builddir": true,
             "config-opts": [
                 "-DWITH_MANPAGES:BOOL=OFF",
                 "-DWITH_OSS:BOOL=OFF",
