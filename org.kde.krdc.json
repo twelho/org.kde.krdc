@@ -46,8 +46,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://www.libssh.org/files/0.10/libssh-0.10.5.tar.xz",
-                    "sha256": "b60e2ff7f367b9eee2b5634d3a63303ddfede0e6a18dfca88c44a8770e7e4234",
+                    "url": "https://www.libssh.org/files/0.10/libssh-0.10.6.tar.xz",
+                    "sha256": "1861d498f5b6f1741b6abc73e608478491edcf9c9d4b6630eef6e74596de9dc1",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1729,
@@ -111,8 +111,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.4/src/krdc-23.08.4.tar.xz",
-                    "sha256": "985a6f6af9e2a5685dd95b629fa666211ef36eb1272fac43dc0511f33daa484d",
+                    "url": "https://download.kde.org/stable/release-service/23.08.5/src/krdc-23.08.5.tar.xz",
+                    "sha256": "c2c57cebb22a9201ce5d6c305654e485df1d0deaa17496a8d85fe19a80f059f4",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
