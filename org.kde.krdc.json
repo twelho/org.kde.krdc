@@ -102,6 +102,9 @@
                         "type": "anitya",
                         "project-id": 10442,
                         "stable-only": true,
+                        "versions": {
+                            "<": "3"
+                        },
                         "url-template": "https://github.com/FreeRDP/FreeRDP/archive/refs/tags/$version.tar.gz"
                     }
                 }
