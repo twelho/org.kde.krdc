@@ -19,7 +19,8 @@
         "--share=network",
         "--device=dri",
         "--socket=pulseaudio",
-        "--talk-name=org.kde.kwalletd5"
+        "--talk-name=org.kde.kwalletd5",
+        "--talk-name=org.kde.kwalletd6"
     ],
     "add-extensions": {
         "org.freedesktop.Platform.ffmpeg-full": {
