@@ -123,8 +123,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.12.1/src/krdc-24.12.1.tar.xz",
-                    "sha256": "6eb70ac2c1d3c625aa6fc20458366bf39ea61d1104b42bed2852796c77b59a4f",
+                    "url": "https://download.kde.org/stable/release-service/24.12.2/src/krdc-24.12.2.tar.xz",
+                    "sha256": "ebb29028cd9450ab2e18246ea5b6f6c210c5db75095c4cc8d470c156cea401ee",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
